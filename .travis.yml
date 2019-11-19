@@ -22,7 +22,7 @@ after_success:
   - docker push thabizolo/multi-worker
 
 deploy:
-  provider: elasticbeanstalk
+    provider: elasticbeanstalk
     edge: true
     region: "us-east-1"
     app: "multi-docker"
